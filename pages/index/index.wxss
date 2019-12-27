@@ -1,0 +1,65 @@
+/**index.wxss**/
+.card-list{
+  width:720rpx;
+  height:250rpx;
+  border:1rpx solid #F5F4F4;
+  border-radius:20rpx;
+  margin-top:16rpx;
+  background:#fff;
+  display:flex;
+  padding:31rpx 20rpx 30rpx 32rpx;
+  box-sizing:border-box;
+  position:relative;
+}
+.card-left{
+  padding-right:32rpx;
+  width:214rpx;
+  height:182rpx;
+  box-sizing: border-box;
+}
+.tpic{
+  width:182rpx;
+  height:182rpx;
+}
+.card-right{
+  width:420rpx;
+  /* overflow:hidden; */
+  color:#868686;
+}
+.card-name{
+ font-size:30rpx;
+ padding-bottom:18rpx;
+}
+.card-job{
+ font-size:26rpx;
+ padding-bottom:35rpx;
+}
+.card-company{
+  color:#acacad;
+  font-size:18rpx;
+  margin-bottom:18rpx;
+  word-break: break-all;
+}
+.card-phone{
+  color:#acacad;
+  font-size:18rpx;
+}
+.gocreate{
+  margin:116rpx auto;
+  width:534rpx;
+  height:80rpx;
+  background:#1da9ff;
+  border-radius:80rpx;
+  color:#fff;
+  font-size:36rpx;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.goId{
+  width:20rpx;
+  height:38rpx;
+  position:absolute;
+  top:100rpx;
+  right:20rpx;
+}

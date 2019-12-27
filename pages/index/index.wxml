@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="card-list" wx:for="{{cardlist}}" wx:for-index="id" wx:for-item="item" wx:key="id" bindtap="goPreview" data-id="{{item.id}}">
+    <view class="card-left">
+      <image class="tpic" src="{{item.tpic}}" wx:if="{{item.tpic}}"></image>
+        <image class="tpic" src="../images/tpic.png" wx:else></image>
+    </view>
+    <view class="card-right">
+      <view class="card-name">{{item.name}}</view>
+      <view class="card-job">{{item.job}}</view>
+      <view class="card-company">公司:{{item.company}}</view>
+      <view class="card-phone">电话:{{item.phone}}</view>
+    </view>
+    <view bindtap="goPreview" data-id="{{item.id}}"><image class="goId" src="../images/arrow.png"></image></view>
+  </view>
+  <view class="gocreate" bindtap="goAdd">现在创建</view>
+</view>

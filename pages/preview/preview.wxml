@@ -1,0 +1,27 @@
+<view class="card-container">
+  <image src="../images/bg.jpg" class="cardbg"></image>
+  <view class="card-section">
+    <view class="card-pic">
+      <image src="{{tpic}}" class="tpic" wx:if="{{tpic}}"></image>
+      <image src="../images/tpic.png" class="tpic" wx:else></image>
+      <view class="card-right">
+        <view class="card-name">{{name}}</view>
+        <view class="card-job">{{job}}</view>
+      </view>
+    </view>
+    <view class="card-tel">
+      <image src="../images/tel.png" class="telpic"></image>
+      <text>{{phone}}</text>
+    </view>
+    <view class="card-company">
+      <image src="../images/company.png" class="companypic"></image>
+      <text>{{company}}</text>
+    </view>
+  </view>
+  <view class="btn-group">
+   <image src="../images/edit.png" class="edit-btn" bindtap="editFn"></image>
+   <button class="share-btn" open-type="share">转发</button>
+  </view>
+</view>
+
+

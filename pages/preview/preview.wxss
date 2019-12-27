@@ -1,0 +1,74 @@
+.card-container{
+  width:750rpx;
+  height:472rpx;
+  position:relative;
+}
+.cardbg{
+  width:750rpx;
+  height:472rpx;
+}
+.card-section{
+  position:absolute;
+  width:750rpx;
+  height:472rpx;
+  left:0;
+  top:0;
+  padding:110rpx 84rpx 0 84rpx;
+  box-sizing:border-box;
+}
+.card-pic,.card-tel,.card-company{
+  display:flex;
+  color:#8AA2BC;
+  font-size:28rpx;
+}
+.tpic{
+  width:110rpx;
+  height:110rpx;
+  padding-right:48rpx;
+}
+.card-pic{
+  color:#333;
+  font-size:40rpx;
+}
+.card-name{
+  padding-top:10rpx;
+}
+.card-job{
+  font-size:18rpx;
+  padding-top:10rpx;
+}
+.telpic{
+  width:30rpx;
+  height:32rpx;
+  padding-right:10rpx;
+}
+.companypic{
+  width:31rpx;
+  height:32rpx;  
+  padding-right:10rpx;
+}
+.card-tel,.card-company{
+  padding-top:33rpx;
+}
+.btn-group{
+  padding:100rpx 40rpx 0 50rpx;
+  display:flex;
+  align-items: center;
+  flex-flow:  row nowrap;
+  justify-content: space-between;
+}
+.edit-btn{
+  width:45rpx;
+  height:43rpx;
+}
+.share-btn{
+  width:564rpx;
+  height:80rpx;
+  background:#1DA9FF;
+  border-radius:80rpx;
+  color:#fff;
+  font-size:30rpx;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}

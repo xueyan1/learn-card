@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="edit-list h97">
+    <label>头像</label>
+    <image src="{{tpic}}" class="tpic" bindtap="uploadFn" wx:if="{{tpic}}"></image>
+    <image src="../images/tpic.png" class="tpic" bindtap="uploadFn" wx:else></image>
+  </view>
+  <view class="edit-list">
+    <label>姓名</label>
+    <input bindinput="userNameInput" value="{{name}}" placeholder="如：赵文华（必填）" placeholder-class="edit-input"></input>
+  </view>
+  <view class="edit-list">
+    <label>电话</label>
+    <input bindinput="phoneInput" value="{{phone}}" placeholder="如：12345678956（必填）" placeholder-class="edit-input"></input>
+  </view>
+  <view class="edit-list">
+    <label>公司</label>
+    <input bindinput="companyInput" value="{{company}}" placeholder="如：广东省深圳市世纪梅林有限责任公司" placeholder-class="edit-input"></input>
+  </view>
+  <view class="edit-list">
+    <label>职位</label>
+    <input bindinput="jobInput" value="{{job}}" placeholder="如：销售" placeholder-class="edit-input"></input>
+  </view>
+  <view class="add-btn" bindtap="addFn">保存</view>
+</view>

@@ -1,0 +1,51 @@
+/* pages/edit/edit.wxss */
+.container{
+  padding-top:66rpx;
+}
+.edit-list{
+  width:663rpx;
+  height:70rpx;
+  border-bottom:1rpx solid #EBEBEB;
+  margin:0 auto;
+  display:flex;
+  align-items: center;
+    color:#666;
+ font-size:27rpx;
+ position:relative;
+}
+.h97{
+  height:97rpx;
+}
+.editpic{
+  width:35rpx;
+  height:33rpx;
+  position:absolute;
+  top:32rpx;
+  right:65rpx;
+}
+.edit-list label{
+ padding:0 38rpx 0 36rpx;
+}
+.edit-list input{
+  flex:1;
+}
+.edit-input{
+  color:#999;
+  font-size:28rpx;
+}
+.tpic{
+  width:65rpx;
+  height:65rpx;
+}
+.add-btn{
+  width:540rpx;
+  height:82rpx;
+  background:#1DA9FF;
+  border-radius: 70rpx;
+  color:#fff;
+  font-size:35rpx;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:465rpx auto 0;
+}
